@@ -1,0 +1,55 @@
+.square{
+    background-color: antiquewhite;
+    width: 20vw;
+    height: 20vh;
+}
+body{
+    background-color: rebeccapurple;
+}
+#body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+    position: relative;
+}
+.square{
+    border: black 2px solid;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.square > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rebeccapurple;
+}
+.hidden{
+    opacity: 0;
+    width: 0px;
+}
+.congratulationsContainer{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 20px;
+    
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameContainer{
+    color: antiquewhite;
+    font-size: larger;
+    font-weight: bolder;
+}
