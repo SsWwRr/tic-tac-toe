@@ -10,7 +10,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0;
-    position: relative;
+    
 }
 .square{
     border: black 2px solid;
@@ -41,15 +41,30 @@ body{
     font-size: 40px;
     font-weight: bolder;
     border-radius: 20px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     
 }
 #container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .nameContainer{
     color: antiquewhite;
+    font-size: larger;
+    font-weight: bolder;
+}
+button{
+    color: blueviolet;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    width: 8vw;
+    height: 8vh;
     font-size: larger;
     font-weight: bolder;
 }
